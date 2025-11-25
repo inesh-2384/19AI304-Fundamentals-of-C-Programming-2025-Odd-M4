@@ -1,4 +1,25 @@
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd-M4
+# IAPR-4- Module 4 - FoC
+## 7. Implementation of Functions.
+## 8. Implementation of passing parameters.
+# Ex.No:16
+  Implement a C program to read a date in the format DD/MM/YYYY and determine whether the entered date is valid. The program should check the correctness of the day, month, and year, including leap year calculations for February.
+# Date : 
+# Aim:
+ To implement a C program that validates a user-entered date using a function without parameters and without return value, ensuring the correctness of day, month, year, and leap year conditions.
+# Algorithm:
+### Step 1:
+  Start
+### Step 2: 
+  Include the standard input-output library: #include<stdio.h>.
+### Step 3:
+### Call the function `validateDate()`.
+### Inside `validateDate()` function:
+### Step 4: 
+  Declare variables `dd`, `mm`, and `yy`.
+### Step 5: 
+  Ask the user to enter a date in `DD/MM/YYYY` format.
+### Step 6: 
   Read the date values using `scanf`.
 ### Step 7: 
   Check if the year is between **1900 and 9999**.
